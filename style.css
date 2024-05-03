@@ -293,46 +293,31 @@ header{
 /* FOOTER STYLES */
 
 footer{
-    height: 200px;
     background-color: #1F363D; 
-    align-items: center;
-}
-.footNav{
-    padding: 0;
-    width: 100%;
     text-align: center;
 }
-.footName {
+footer a {
+    height: 200px;
     color: #CFE0C3;
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
     font-size: 24px;
     text-decoration: none;
-    vertical-align: text-bottom;
 }
+
 .footName:hover {
     color: white;
 }
 
-.footNameItem {
-    height: 50px;
-    padding-top: 100px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 .footerLine{
     border-color: #CFE0C3;
     width: 70%;
 }
-.footItem{
-    color: #1F363D;
-    text-decoration: none;
-    padding: 0 20px;
-}
 
-.footList {
-  padding: 0;
+.footer-fixed footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 /* MEDIA QUERIES */
