@@ -1,0 +1,411 @@
+/* Colors dark to light
+#1F363D
+#40798C
+#9EC1A3
+#CFE0C3 */
+  
+body{
+    background-color: #40798C;
+    margin: 0;
+    padding: 0;
+}
+a:hover {
+    color: #1F363D;
+}
+
+/* NAV STYLES */
+header{
+    background-color: #1F363D;
+}
+.topNav {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+.navName{
+    color: #cfe0c3;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    text-decoration: none;
+}
+.topNav li {
+    align-content: center;
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    font-weight: 600;
+    display: inline-block;
+    color: #cfe0c3;
+}
+.navItem{
+    color: inherit;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.navList {
+    padding: 0;
+}
+
+/* LANDING PAGE STYLES */
+.landing-cta{
+    background-color: #9EC1A3;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.landing-projects{
+    background-color: #1F363D;
+    padding: 50px;
+    padding-top: 0;
+    margin: 25px 0 0 0;
+}
+.landing-about{
+    background-color: #9EC1A3;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.landing-contact{
+    background-color: #1F363D;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.landing-title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F363D;
+}
+.landing-title-2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #CFE0C3;
+}
+.landing-title-3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 16px;
+    color: #CFE0C3;
+}
+.landing-text{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+}
+.landing-text-2{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+}
+.landing-text-3{
+    font-size: 24px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+}
+.contact-btns {
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.inline-link {
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+    font-weight: 600;
+}
+.inline-link-2 {
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+    font-weight: 600;
+}
+.landing-img-div {
+    display: flex;
+}
+.landing-img {
+    margin: auto;
+    width: 600px;
+    border: #CFE0C3 25px solid;
+}
+.landing-btn {
+    background-color: #1F363D;
+    height: 60px;
+}
+.landing-btn:hover {
+    background-color: #40798C;
+}
+.landing-btn-2 {
+    background-color: #CFE0C3;
+    height: 60px;
+}
+.landing-btn-2:hover {
+    background-color: white;
+}
+
+/* PROJECTS PAGE STYLES */
+.projects-div{
+    background-color: #9EC1A3;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.projects-div-2{
+    background-color: #1F363D;
+    padding: 50px;
+    margin: 25px 0 25px 0;
+}
+.projects-title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F363D;
+}
+.projects-title-2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #CFE0C3;
+}
+.projects-text{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+}
+.projects-text-2{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+}
+.projects-img{
+    border: #CFE0C3 25px solid;
+    margin: auto;
+    width: 600px;
+}
+.proj-img-div {
+    display: flex;
+}
+.projects-btn {
+    background-color: #9EC1A3;
+    border: #1F363D 1px solid;
+    font-family: 'Roboto', system-ui;
+}
+.projects-btn:hover {
+    background-color: #CFE0C3;
+    border: #1F363D 1px solid;
+}
+.projects-btn-2 {
+    background-color: #1F363D;
+    border: #CFE0C3 1px solid;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+}
+.projects-btn-2:hover {
+    background-color: #CFE0C3;
+    border: #1F363D 1px solid;
+}
+
+
+/* RESUME PAGE STYLES */
+.resume-title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F363D;
+}
+.resume-title-2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 16px;
+    color: #1F363D;
+}
+.resume-div{
+    background-color: #9EC1A3;
+    margin: 25px 0 0 0;
+}
+.resume-div-2{
+    background-color: #1F363D;
+    margin: 25px 0 0 0;
+}
+.resume-text{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+}
+
+/* CONTACT PAGE STYLES */
+.contact-div{
+    background-color: #CFE0C3;
+    margin: 25px 0 0 0;
+}
+.contact-div-2{
+    background-color: #1F363D;
+    margin: 25px 0 0 0;
+}
+.contact-title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F363D;
+}
+.contact-title-2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 16px;
+    color: #CFE0C3;
+}
+.contact-text{
+    font-size: 24px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+    font-weight: 400;
+}
+.contact-text-2{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+    font-weight: 400;
+}
+.contact-btn{
+    background-color: #1F363D;
+    border: #CFE0C3 1px solid;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+    margin: 10px auto;
+    display: flex;
+    width: fit-content;
+}
+.contact-btn:hover {
+    background-color: #CFE0C3;
+}
+
+/* ABOUT PAGE STYLES */
+.about-div{
+    background-color: #9EC1A3;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.about-div-2{
+    background-color: #1F363D;
+    padding: 50px;
+    margin: 25px 0 0 0;
+}
+.about-title{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #1F363D;
+}
+.about-title-2{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    color: #CFE0C3;
+}
+.about-text{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #1F363D;
+}
+.about-text-2{
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    color: #CFE0C3;
+}
+
+/* FOOTER STYLES */
+.footer-img-list {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  column-count: 3;
+  column-gap: 10px;
+  column-width: 50px;
+}
+
+.footer-imgs {
+  width: 50px;
+  height: 50px;
+  background-color: white; /* remove later */
+  border-radius: 100%;
+}
+footer{
+    height: 300px;
+    background-color: #1F363D; 
+    align-items: center;
+}
+.footNav{
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.footName {
+    color: #CFE0C3;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 24px;
+    text-decoration: none;
+    vertical-align: text-bottom;
+}
+.footName:hover {
+    color: white;
+}
+.footNav li{
+    align-content: center;
+    font-size: 16px;
+    font-family: 'Roboto', system-ui;
+    font-weight: 600;
+    display: inline-block;
+    color: #cfe0c3;
+}
+
+.footNameItem {
+    height: 50px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footerLine{
+    border-color: #CFE0C3;
+    width: 70%;
+}
+.footItem{
+    color: #1F363D;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.footList {
+  padding: 0;
+}
+
+.footer-img-list {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: auto;
+  list-style: none;
+  padding: 0;
+  column-count: 3;
+  column-gap: 10px;
+  column-width: 50px;
+}
+
+.footer-imgs {
+  width: 50px;
+  height: 50px;
+  background-color: white; /* remove later */
+  border-radius: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 640px) {
+    .navName, .landing-title, .landing-title-2, .contact-title {
+        font-size: 16px;
+    }
+    .contact-text {
+        font-size: 14px;
+    }
+}
