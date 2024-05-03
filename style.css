@@ -337,7 +337,7 @@ footer{
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
-    .navName, .landing-title, .landing-title-2, .contact-title, .footName {
+    .navName, .landing-title, .landing-title-2, .contact-title, .footName, .about-title, .about-title-2, .projects-title, .projects-title-2, .resume-title, .resume-title-2 {
         font-size: 16px;
     }
     .contact-text {
