@@ -3847,7 +3847,7 @@ textarea.form-control-lg {
     transition: none;
   }
 }
-.nav-link:hover, .nav-link:focus {
+.nav-link:focus,.nav-link:hover {
   color: white;
 }
 .nav-link:focus-visible {

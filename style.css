@@ -50,24 +50,15 @@ header{
 /* LANDING PAGE STYLES */
 .landing-cta{
     background-color: #9EC1A3;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .landing-projects{
     background-color: #1F363D;
-    padding: 50px;
-    padding-top: 0;
-    margin: 25px 0 0 0;
 }
 .landing-about{
     background-color: #9EC1A3;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .landing-contact{
     background-color: #1F363D;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .landing-title{
     font-family: "Press Start 2P", system-ui;
@@ -145,13 +136,9 @@ header{
 /* PROJECTS PAGE STYLES */
 .projects-div{
     background-color: #9EC1A3;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .projects-div-2{
     background-color: #1F363D;
-    padding: 50px;
-    margin: 25px 0 25px 0;
 }
 .projects-title{
     font-family: "Press Start 2P", system-ui;
@@ -219,11 +206,9 @@ header{
 }
 .resume-div{
     background-color: #9EC1A3;
-    margin: 25px 0 0 0;
 }
 .resume-div-2{
     background-color: #1F363D;
-    margin: 25px 0 0 0;
 }
 .resume-text{
     font-size: 16px;
@@ -233,12 +218,10 @@ header{
 
 /* CONTACT PAGE STYLES */
 .contact-div{
-    background-color: #CFE0C3;
-    margin: 25px 0 0 0;
+    background-color: #9EC1A3;
 }
 .contact-div-2{
     background-color: #1F363D;
-    margin: 25px 0 0 0;
 }
 .contact-title{
     font-family: "Press Start 2P", system-ui;
@@ -280,13 +263,9 @@ header{
 /* ABOUT PAGE STYLES */
 .about-div{
     background-color: #9EC1A3;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .about-div-2{
     background-color: #1F363D;
-    padding: 50px;
-    margin: 25px 0 0 0;
 }
 .about-title{
     font-family: "Press Start 2P", system-ui;
@@ -312,24 +291,7 @@ header{
 }
 
 /* FOOTER STYLES */
-.footer-img-list {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-  margin: auto;
-  list-style: none;
-  padding: 0;
-  column-count: 3;
-  column-gap: 10px;
-  column-width: 50px;
-}
 
-.footer-imgs {
-  width: 50px;
-  height: 50px;
-  background-color: white; /* remove later */
-  border-radius: 100%;
-}
 footer{
     height: 300px;
     background-color: #1F363D; 
@@ -350,14 +312,6 @@ footer{
 }
 .footName:hover {
     color: white;
-}
-.footNav li{
-    align-content: center;
-    font-size: 16px;
-    font-family: 'Roboto', system-ui;
-    font-weight: 600;
-    display: inline-block;
-    color: #cfe0c3;
 }
 
 .footNameItem {
@@ -381,28 +335,9 @@ footer{
   padding: 0;
 }
 
-.footer-img-list {
-  display: flex;
-  flex-direction: row;
-  width: fit-content;
-  margin: auto;
-  list-style: none;
-  padding: 0;
-  column-count: 3;
-  column-gap: 10px;
-  column-width: 50px;
-}
-
-.footer-imgs {
-  width: 50px;
-  height: 50px;
-  background-color: white; /* remove later */
-  border-radius: 100%;
-}
-
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
-    .navName, .landing-title, .landing-title-2, .contact-title {
+    .navName, .landing-title, .landing-title-2, .contact-title, .footName {
         font-size: 16px;
     }
     .contact-text {
