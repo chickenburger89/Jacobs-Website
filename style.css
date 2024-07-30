@@ -189,6 +189,16 @@ header{
     background-color: #CFE0C3;
     border: #1F363D 1px solid;
 }
+.projects-sub{
+    color: #1F363D;
+    font-size: 20px;
+    font-family: 'Roboto', system-ui;
+}
+.projects-sub-2{
+    color: #CFE0C3;
+    font-size: 20px;
+    font-family: 'Roboto', system-ui;
+}
 
 
 /* RESUME PAGE STYLES */
