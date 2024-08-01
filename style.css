@@ -1,44 +1,50 @@
 /* Colors dark to light
+#0D171A
 #1F363D
 #40798C
 #9EC1A3
-#CFE0C3 */
-  
-body{
+#CFE0C3
+#FAFFF7; */
+
+body {
     background-color: #40798C;
     margin: 0;
     padding: 0;
 }
+
 a:hover {
     color: #1F363D;
 }
 
 /* NAV STYLES */
-header{
+header {
     background-color: #1F363D;
 }
+
 .topNav {
     margin: auto;
     padding: 0;
     text-align: center;
 }
-.navName{
-    color: #cfe0c3;
+
+.navName {
+    color: #FAFFF7;
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
-    font-size: 24px;
+    font-size: 32px;
     text-decoration: none;
 }
+
 .topNav li {
     align-content: center;
-    font-size: 16px;
+    font-size: 24px;
     font-family: 'Roboto', system-ui;
     font-weight: 600;
     display: inline-block;
-    color: #cfe0c3;
+    color: #FAFFF7;
 }
-.navItem{
-    color: inherit;
+
+.navItem {
     text-decoration: none;
     padding: 0 20px;
 }
@@ -48,267 +54,318 @@ header{
 }
 
 /* LANDING PAGE STYLES */
-.landing-cta{
+.landing-cta {
     background-color: #9EC1A3;
 }
-.landing-projects{
+
+.landing-projects {
     background-color: #1F363D;
 }
-.landing-about{
+
+.landing-about {
     background-color: #9EC1A3;
 }
-.landing-contact{
+
+.landing-contact {
     background-color: #1F363D;
 }
-.landing-title{
+
+.landing-title {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 32px;
+    color: #0D171A;
+}
+
+.landing-title-2 {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 32px;
+    color: #FAFFF7;
+}
+
+.landing-title-3 {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
     font-size: 24px;
-    color: #1F363D;
+    color: #FAFFF7;
 }
-.landing-title-2{
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 200;
-    font-size: 24px;
-    color: #CFE0C3;
-}
-.landing-title-3{
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 200;
-    font-size: 16px;
-    color: #CFE0C3;
-}
-.landing-text{
-    font-size: 16px;
-    font-family: 'Roboto', system-ui;
-    color: #1F363D;
-}
-.landing-text-2{
-    font-size: 16px;
-    font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
-}
-.landing-text-3{
+
+.landing-text {
     font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #0D171A;
 }
+
+.landing-text-2 {
+    font-size: 24px;
+    font-family: 'Roboto', system-ui;
+    color: #FAFFF7;
+}
+
+.landing-text-3 {
+    font-size: 24px;
+    font-family: 'Roboto', system-ui;
+    color: #FAFFF7;
+}
+
 .contact-btns {
     display: block;
     width: fit-content;
     margin: auto;
 }
+
 .inline-link {
     font-size: 16px;
     font-family: 'Roboto', system-ui;
     color: #CFE0C3;
     font-weight: 600;
 }
+
 .inline-link-2 {
     font-size: 16px;
     font-family: 'Roboto', system-ui;
     color: #1F363D;
     font-weight: 600;
 }
+
 .landing-img-div {
     display: flex;
 }
+
 .landing-img {
     margin: auto;
     width: 600px;
-    border: #CFE0C3 25px solid;
+    border: #FAFFF7 25px solid;
 }
+
 .landing-btn {
     background-color: #1F363D;
     height: 60px;
 }
+
 .landing-btn:hover {
     background-color: #40798C;
 }
+
 .landing-btn-2 {
     background-color: #CFE0C3;
     height: 60px;
 }
+
 .landing-btn-2:hover {
     background-color: white;
 }
 
 /* PROJECTS PAGE STYLES */
-.projects-div{
+.projects-div {
     background-color: #9EC1A3;
 }
-.projects-div-2{
+
+.projects-div-2 {
     background-color: #1F363D;
 }
-.projects-title{
+
+.projects-title {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
-    font-size: 24px;
-    color: #1F363D;
+    font-size: 32px;
+    color: #0D171A;
 }
-.projects-title-2{
+
+.projects-title-2 {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
+    font-size: 32px;
+    color: #FAFFF7;
+}
+
+.projects-text {
     font-size: 24px;
-    color: #CFE0C3;
-}
-.projects-text{
-    font-size: 16px;
     font-family: 'Roboto', system-ui;
-    color: #1F363D;
+    color: #0D171A;
 }
-.projects-text-2{
-    font-size: 16px;
+
+.projects-text-2 {
+    font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #FAFFF7;
 }
-.projects-img{
-    border: #CFE0C3 25px solid;
+
+.projects-img {
+    border: #FAFFF7 25px solid;
     margin: auto;
     width: 600px;
 }
+
 .proj-img-div {
     display: flex;
 }
+
 .projects-btn {
     background-color: #9EC1A3;
-    border: #1F363D 1px solid;
+    border: #0D171A 1px solid;
     font-family: 'Roboto', system-ui;
+    font-size: 24px;
+    color: #0D171A;
 }
+
 .projects-btn:hover {
     background-color: #CFE0C3;
-    border: #1F363D 1px solid;
+    border: #0D171A 1px solid;
 }
+
 .projects-btn-2 {
     background-color: #1F363D;
-    border: #CFE0C3 1px solid;
+    border: #FAFFF8 1px solid;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #FAFFF8;
+    font-size: 24px;
 }
+
 .projects-btn-2:hover {
     background-color: #CFE0C3;
-    border: #1F363D 1px solid;
+    border: #0D171A 1px solid;
 }
-.projects-sub{
-    color: #1F363D;
-    font-size: 20px;
+
+.projects-sub {
+    color: #0D171A;
+    font-size: 28px;
     font-family: 'Roboto', system-ui;
 }
-.projects-sub-2{
-    color: #CFE0C3;
-    font-size: 20px;
+
+.projects-sub-2 {
+    color: #FAFFF7;
+    font-size: 28px;
     font-family: 'Roboto', system-ui;
 }
 
 
 /* RESUME PAGE STYLES */
-.resume-title{
+.resume-title {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-size: 32px;
+    color: #0D171A;
+}
+
+.resume-title-2 {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
     font-size: 24px;
-    color: #1F363D;
+    color: #0D171A;
 }
-.resume-title-2{
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 200;
-    font-size: 16px;
-    color: #1F363D;
-}
-.resume-div{
+
+.resume-div {
     background-color: #9EC1A3;
 }
-.resume-div-2{
+
+.resume-div-2 {
     background-color: #1F363D;
 }
-.resume-text{
-    font-size: 16px;
+
+.resume-text {
+    font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #1F363D;
+    color: #0D171A;
 }
 
 /* CONTACT PAGE STYLES */
-.contact-div{
+.contact-div {
     background-color: #9EC1A3;
 }
-.contact-div-2{
+
+.contact-div-2 {
     background-color: #1F363D;
 }
-.contact-title{
+
+.contact-title {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
     font-size: 24px;
-    color: #1F363D;
+    color: #0D171A;
 }
-.contact-title-2{
+
+.contact-title-2 {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
-    font-size: 16px;
-    color: #CFE0C3;
+    font-size: 24px;
+    color: #FAFFF7;
 }
-.contact-text{
+
+.contact-text {
     font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #1F363D;
+    color: #0D171A;
     font-weight: 400;
 }
-.contact-text-2{
-    font-size: 16px;
+
+.contact-text-2 {
+    font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #FAFFF7;
     font-weight: 400;
 }
-.contact-btn{
+
+.contact-btn {
     background-color: #1F363D;
-    border: #CFE0C3 1px solid;
+    border: #FAFFF7 1px solid;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #FAFFF7;
     margin: 10px auto;
     display: flex;
     width: fit-content;
 }
+
 .contact-btn:hover {
     background-color: #CFE0C3;
 }
 
 /* ABOUT PAGE STYLES */
-.about-div{
+.about-div {
     background-color: #9EC1A3;
 }
-.about-div-2{
+
+.about-div-2 {
     background-color: #1F363D;
 }
-.about-title{
+
+.about-title {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
-    font-size: 24px;
-    color: #1F363D;
+    font-size: 32px;
+    color: #0D171A;
 }
-.about-title-2{
+
+.about-title-2 {
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
+    font-size: 32px;
+    color: #FAFFF7;
+}
+
+.about-text {
     font-size: 24px;
-    color: #CFE0C3;
-}
-.about-text{
-    font-size: 16px;
     font-family: 'Roboto', system-ui;
-    color: #1F363D;
+    color: #0D171A;
 }
-.about-text-2{
-    font-size: 16px;
+
+.about-text-2 {
+    font-size: 24px;
     font-family: 'Roboto', system-ui;
-    color: #CFE0C3;
+    color: #FAFFF7;
 }
 
 /* FOOTER STYLES */
 
-footer{
-    background-color: #1F363D; 
+footer {
+    background-color: #1F363D;
     text-align: center;
 }
+
 footer a {
     height: 200px;
-    color: #CFE0C3;
+    color: #FAFFF7;
     font-family: "Press Start 2P", system-ui;
     font-weight: 200;
     font-size: 24px;
@@ -319,8 +376,8 @@ footer a {
     color: white;
 }
 
-.footerLine{
-    border-color: #CFE0C3;
+.footerLine {
+    border-color: #FAFFF7;
     width: 70%;
 }
 
@@ -332,10 +389,40 @@ footer a {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
-    .navName, .landing-title, .landing-title-2, .contact-title, .footName, .about-title, .about-title-2, .projects-title, .projects-title-2, .resume-title, .resume-title-2 {
+
+    .navName,
+    .landing-title,
+    .landing-title-2,
+    .landing-text,
+    .landing-text-2,
+    .projects-btn,
+    .projects-btn-2,
+    .contact-title,
+    .contact-title-2,
+    .contact-text-2,
+    .footName,
+    .about-title,
+    .about-title-2,
+    .about-text,
+    .about-text-2,
+    .projects-title,
+    .projects-title-2,
+    .projects-text,
+    .projects-text-2,
+    .projects-sub,
+    .projects-sub-2,
+    .resume-title,
+    .resume-title-2 {
         font-size: 16px;
     }
+
     .contact-text {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .topNav li {
+        font-size: 16px;
     }
 }
