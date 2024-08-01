@@ -393,6 +393,7 @@ footer a {
     .navName,
     .landing-title,
     .landing-title-2,
+    .landing-title-3,
     .landing-text,
     .landing-text-2,
     .projects-btn,
@@ -412,7 +413,8 @@ footer a {
     .projects-sub,
     .projects-sub-2,
     .resume-title,
-    .resume-title-2 {
+    .resume-title-2,
+    .resume-text {
         font-size: 16px;
     }
 
