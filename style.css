@@ -388,6 +388,27 @@ footer a {
     bottom: 0;
 }
 
+/* CAROUSEL STYLES */
+
+.sr-only {
+    font-size: 24px;
+    font-family: "roboto", system-ui;
+    color: #0D171A;
+    font-weight: 500;
+}
+
+.cl-img {
+    border: #FAFFF7 15px solid;
+}
+
+.cl-text {
+    font-family: "roboto", system-ui;
+}
+
+.cl-sub {
+    font-family: "roboto", system-ui;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 640px) {
 
@@ -415,7 +436,9 @@ footer a {
     .projects-sub-2,
     .resume-title,
     .resume-title-2,
-    .resume-text {
+    .resume-text,
+    .sr-only,
+    .cl-sub {
         font-size: 16px;
     }
 
