@@ -3849,6 +3849,7 @@ textarea.form-control-lg {
 }
 .nav-link:focus,.nav-link:hover {
   color: white;
+  text-decoration: underline;
 }
 .nav-link:focus-visible {
   outline: 0;
@@ -4003,6 +4004,7 @@ textarea.form-control-lg {
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: white;
+  text-decoration: underline;
 }
 
 .navbar-nav {

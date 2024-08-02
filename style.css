@@ -136,7 +136,7 @@ header {
 .landing-img {
     margin: auto;
     width: 600px;
-    border: #FAFFF7 25px solid;
+    border: #FAFFF7 15px solid;
 }
 
 .landing-btn {
@@ -193,7 +193,7 @@ header {
 }
 
 .projects-img {
-    border: #FAFFF7 25px solid;
+    border: #FAFFF7 15px solid;
     margin: auto;
     width: 600px;
 }
@@ -374,6 +374,7 @@ footer a {
 
 .footName:hover {
     color: white;
+    text-decoration: underline;
 }
 
 .footerLine {
