@@ -356,6 +356,12 @@ header {
     color: #FAFFF7;
 }
 
+.about-img {
+    margin: auto;
+    width: 800px;
+    border: #FAFFF7 15px solid;
+}
+
 /* FOOTER STYLES */
 
 footer {
