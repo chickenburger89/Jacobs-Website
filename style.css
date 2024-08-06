@@ -208,6 +208,7 @@ header {
     font-family: 'Roboto', system-ui;
     font-size: 24px;
     color: #0D171A;
+    border-radius: 0px;
 }
 
 .projects-btn:hover {
@@ -221,6 +222,7 @@ header {
     font-family: 'Roboto', system-ui;
     color: #FAFFF8;
     font-size: 24px;
+    border-radius: 0px;
 }
 
 .projects-btn-2:hover {
@@ -315,6 +317,7 @@ header {
     margin: 10px auto;
     display: flex;
     width: fit-content;
+    border-radius: 0px;
 }
 
 .contact-btn:hover {
