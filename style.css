@@ -195,7 +195,7 @@ header {
 .projects-img {
     border: #FAFFF7 15px solid;
     margin: auto;
-    width: 600px;
+    width: 800px;
 }
 
 .proj-img-div {
@@ -409,6 +409,15 @@ footer a {
 
 .cl-text {
     font-family: "roboto", system-ui;
+    font-size: 24px;
+}
+
+.cl-button {
+    background-color: #9EC1A3; 
+    width: 10%; 
+    text-decoration: none;
+    border: #FAFFF8 1px solid;
+    border-radius: 5px;
 }
 
 .cl-sub {
@@ -444,12 +453,20 @@ footer a {
     .resume-title-2,
     .resume-text,
     .sr-only,
-    .cl-sub {
+    .cl-sub,
+    .cl-text {
         font-size: 16px;
     }
 
     .contact-text {
         font-size: 14px;
+    }
+
+    .cl-img,
+    .landing-img,
+    .about-img,
+    .projects-img {
+        border: #FAFFF7 5px solid;
     }
 }
 
