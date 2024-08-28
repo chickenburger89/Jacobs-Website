@@ -26,7 +26,7 @@
     <header>
         <nav class="navbar navbar-expand-md py-3">
             <div class="container-fluid">
-                <a class="navbar-brand navName" href="index.html">JACOB GRUNWALD</a>
+                <a class="navbar-brand navName" href="home.html">JACOB GRUNWALD</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -65,19 +65,21 @@
                 <p class="contact-text-2 my-auto">Leave me your name and contact information, and I will reach out to you. Feel free to let me know what you like about my website or any of my projects.</p>
             </div>
             <div class="col-md-6 mt-3">
-                <form>
+                <form action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="646be508-d845-406c-8f3f-de8ae247da6a">
                     <div class="mb-3">
-                        <label class="form-label" style="color: #FAFFF7; font-family: 'Roboto', system-ui; ">Email</label>
-                        <input type="text" class="form-control" placeholder="example@email.com" style="background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required>
+                        <label class="form-label" style="color: #FAFFF7; font-family: 'Roboto', system-ui; ">Name</label>
+                        <input type="text" name="name" class="form-control" placeholder="i.e. Bilbo Baggins" style="background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required>
                     </div>
                     <div class="mb-3">
-                        <label class="form-label" style="color: #FAFFF7; font-family: 'Roboto', system-ui;">Subject</label>
-                        <input type="text" class="form-control" placeholder="subject" style="background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required>
+                        <label class="form-label" style="color: #FAFFF7; font-family: 'Roboto', system-ui;">Email</label>
+                        <input type="text" name="email" class="form-control" placeholder="example@email.com" style="background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required>
                     </div>
                     <div class="mb-3">
                         <label class="form-label" style="color: #FAFFF7; font-family: 'Roboto', system-ui;">Message</label>
-                        <textarea class="form-control" placeholder="your message here" aria-label="With textarea" style="height: 200px; background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required></textarea>
+                        <textarea class="form-control" name="message" placeholder="your message here" aria-label="With textarea" style="height: 200px; background-color: #FAFFF7; border-radius: 0px; border: #9EC1A3 2px solid;" required></textarea>
                     </div>
+                    <input type="hidden" name="redirect" value="https://jacob-grunwald.com/">
                     <button class="btn contact-btn" type="submit">Submit</button>
                 </form>
             </div>
@@ -86,7 +88,7 @@
     </main>
 
     <footer class="pt-4 pb-3 align-middle">
-        <a class="footName" href="index.html">JACOB GRUNWALD</a>
+        <a class="footName" href="home.html">JACOB GRUNWALD</a>
         <hr class="footerLine">
     </footer>
 
